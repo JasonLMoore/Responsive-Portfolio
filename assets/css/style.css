@@ -216,6 +216,20 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 640px) {
+  #masterhead {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main-container {
+    max-width: 100%;
+    float: none;
+    margin: 0 5%;
+  }
+}
+
 @media screen and (max-width: 980px) {
   #main-container {
     max-width: 650px;
@@ -224,12 +238,4 @@ input[type=submit] {
   p:last-child {
     display: none;
   }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 640px) {
-
 }
