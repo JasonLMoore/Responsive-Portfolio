@@ -217,8 +217,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-  #masterhead {
+  #masthead {
     position: fixed;
+    justify-content: center
   }
 }
 
@@ -231,6 +232,11 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+
+  #masthead {
+    max-width: 960px;
+  }
+
   #main-container {
     max-width: 650px;
     float: left;
